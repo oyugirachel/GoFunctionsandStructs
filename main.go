@@ -21,12 +21,16 @@ func main() {
 	fmt.Println(subtract(789,600))
 	region, continent := location("Nairobi")
 	fmt.Printf("Rachel lives in %s, %s\n", region, continent)
-	d:=time.Date(2020, time.September,
-		26, 21, 34, 01, 0, time.UTC)
+	d:=time.Now()
 	c:= &Food{"Rachel","Spicy",2}
 	fmt.Printf("%s ate her %dth food\n", c.name, much(c))
 	fmt.Printf("%s  loves %s foods\n", c.name, c.flavour)
-	fmt.Printf( "today is on %s", d )
+	fmt.Printf( "today is on %s\n", d )
+	foo := map[string]interface{}{
+		"Rachel": 42,
+	}
+	timeMap(foo)
+	fmt.Println(foo)
 
 
 }
@@ -49,6 +53,12 @@ func location(city string) (string, string) {
 		region, continent = "Unknown", "Unknown"
 	}
 	return region, continent
+}
+func timeMap(y interface{}) {
+	z, ok := y.(map[string]interface{})
+	if ok {
+		z["updated_at"] = time.Now()
+	}
 }
 
 
