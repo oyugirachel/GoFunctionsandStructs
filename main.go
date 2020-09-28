@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"time"
+
+
 )
 
 type Food struct {
@@ -10,21 +13,57 @@ type Food struct {
 	quantity int
 
 }
+
 func much(b *Food) int{
 	b.quantity++
 	return b.quantity
 }
+type geometry interface{
+	area() float64
+	perim() float64
+}
+type circle struct{
+	radius float64
+}
+
+type rect struct{
+	width , length float64
+
+}
 
 
+func (r rect) area() float64{
+	return r.width*r.length
+}
+func(c circle) area() float64{
+	return math.Pi*c.radius*c.radius
+}
+func(r rect)  perim() float64{
+	return 2*r.width +2*r.length
+}
+func(c circle) perim() float64{
+	return 2*math.Pi*c.radius
+}
+func measure(g geometry){
+	fmt.Println(g)
+	fmt.Println(g.area())
+	fmt.Println(g.perim())
+}
 func main() {
 	fmt.Println(add(234,789))
 	fmt.Println(subtract(789,600))
 	region, continent := location("Nairobi")
 	fmt.Printf("Rachel lives in %s, %s\n", region, continent)
 	d:=time.Now()
-	c:= &Food{"Rachel","Spicy",2}
-	fmt.Printf("%s ate her %dth food\n", c.name, much(c))
-	fmt.Printf("%s  loves %s foods\n", c.name, c.flavour)
+    r:=rect{7,8}
+    c:=circle{45}
+    measure(r)
+    measure(c)
+
+
+	h:= &Food{"Rachel","Spicy",2}
+	fmt.Printf("%s ate her %dth food\n", h.name, much(h))
+	fmt.Printf("%s  loves %s foods\n", h.name, h.flavour)
 	fmt.Printf( "today is on %s\n", d )
 	foo := map[string]interface{}{
 		"Rachel": 42,
