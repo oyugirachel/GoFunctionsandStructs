@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eaaa033-973e-4b33-be63-1174ff029490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/structures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,16 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build practicals.go">
+  <component name="RunManager" selected="Go Build.go build slices.go">
+    <configuration name="go build arraysSlices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="golandpracticals" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/structures.go" />
+      <package value="golandpracticals" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golandpracticals" />
       <working_directory value="$PROJECT_DIR$" />
@@ -70,8 +80,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build slices.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golandpracticals" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/slices.go" />
+      <package value="golandpracticals" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build structures.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golandpracticals" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/structures.go" />
+      <package value="golandpracticals" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build slices.go" />
+        <item itemvalue="Go Build.go build arraysSlices.go" />
+        <item itemvalue="Go Build.go build structures.go" />
         <item itemvalue="Go Build.go build practicals.go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -91,24 +122,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1601621052932">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601884292482">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1601621052932" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1601621052932">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1601884292482" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1601885769443">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1601621052932" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1601621052931">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1601885769443" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1601885769442">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1601621052931" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1601621052932">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1601885769442">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1601621052932" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1601885769442">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
