@@ -23,7 +23,7 @@ func main() {
 			d[i][j] = fmt.Sprintf("row %d - column %d", i+1, j+1)
 		}
 	}
-	fmt.Printf("%q", a)
+	fmt.Printf("%q", d)
 	// [["row 1 - column 1" "row 1 - column 2" "row 1 - column 3"]
 	//  ["row 2 - column 1" "row 2 - column 2" "row 2 - column 3"]]
 }
