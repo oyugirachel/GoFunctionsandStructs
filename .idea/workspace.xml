@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eaaa033-973e-4b33-be63-1174ff029490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/slices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8eaaa033-973e-4b33-be63-1174ff029490" name="Default Changelist" comment="dealt with slices and arrays" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -124,27 +122,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dealt with slices and arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="dealt with slices and arrays" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601884292482">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1601884292482" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1601885769443">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1601887398571">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1601885769443" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1601885769442">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1601887398571" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1601887398571">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1601885769442">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1601887398571" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1601887398571">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1601885769442">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1601887398571" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1601887398571">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1601885769442" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1601887398571" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
